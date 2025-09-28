@@ -1,0 +1,113 @@
+@font-face {
+  font-family: gilroy;
+  src: url(./Gilroy-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #dddcdc;
+  font-family: gilroy;
+}
+
+#hero {
+  background-color: royalblue;
+  padding: 100px;
+  text-align: center;
+  color: #fff;
+}
+#hero h1 {
+  font-size: 100px;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+#hero p {
+  font-style: italic;
+  font-size: 18px;
+
+  background: transparent;
+}
+.same {
+  padding: 50px 100px;
+  margin: 50px 100px;
+  text-align: center;
+}
+h2 {
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: 900;
+}
+p {
+  background-color: #fff;
+  font-size: 18px;
+}
+#about {
+  background-color: #fff;
+}
+
+#education {
+  background-color: rgb(16, 174, 174);
+}
+
+#education p {
+  background-color: #fff;
+  padding: 20px;
+  margin: 0 100px;
+}
+#skills {
+  background-color: rgb(235, 218, 134);
+}
+
+#skills p {
+  background-color: #fff;
+  padding: 20px;
+  margin: 0 100px;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+#projects {
+  background: plum;
+}
+#projects p {
+  background-color: #fff;
+  padding: 20px;
+  margin: 0 100px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+#contact {
+  background: rgb(112, 179, 112);
+}
+#contact p {
+  background-color: #fff;
+  padding: 20px;
+  margin: 0 100px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+#footer {
+  background-color: black;
+  padding: 30px;
+  text-align: center;
+}
+#footer p {
+  background-color: transparent;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+@media (max-width: 750px) {
+  .same {
+    padding: 0;
+    margin: 10px;
+  }
+}
