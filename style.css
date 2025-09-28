@@ -113,7 +113,8 @@ p {
   }
   #skills,
   #education,
-  #projects p {
-    margin: 0 10px;
+  #projects,
+  #contact p {
+    margin: 20px;
   }
 }
