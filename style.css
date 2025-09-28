@@ -107,7 +107,13 @@ p {
 }
 @media (max-width: 750px) {
   .same {
-    padding: 0;
-    margin: 10px;
+    margin: 50px 0;
+    padding: 50px 0;
+    margin: 30px 10px;
+  }
+  #skills,
+  #education,
+  #projects p {
+    margin: 0 10px;
   }
 }
